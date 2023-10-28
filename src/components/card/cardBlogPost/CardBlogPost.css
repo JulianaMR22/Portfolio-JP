@@ -1,0 +1,14 @@
+.blog__post {
+  position: relative;
+  grid-area: blog;
+}
+.blog__post::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("./src/assets/images/blog.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}

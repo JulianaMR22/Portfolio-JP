@@ -1,0 +1,31 @@
+.presentation {
+  position: relative;
+  grid-area: presentation;
+}
+
+.image__presentation {
+  position: absolute;
+  top: 8px;
+  width: 130px;
+}
+.container__text {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+  width: 103px;
+}
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d4d4d;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.paragraph__subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 25px;
+  margin-left: 0;
+  margin-top: 15px;
+  text-transform: capitalize;
+}

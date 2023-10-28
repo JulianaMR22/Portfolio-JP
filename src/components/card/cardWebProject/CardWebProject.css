@@ -1,0 +1,15 @@
+.web__projects {
+  position: relative;
+  grid-area: webpro;
+  overflow: hidden;
+}
+.web__projects::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("./src/assets/images/dailyfity.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}

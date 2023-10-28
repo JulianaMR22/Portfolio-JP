@@ -1,0 +1,52 @@
+.tools {
+  position: relative;
+  grid-area: tools;
+}
+.tools__technologies {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.techonologies {
+  width: 90%;
+}
+
+.tools__paragraph {
+  position: absolute;
+  bottom: 29px;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d4d4d;
+  text-transform: uppercase;
+  font-size: 9px;
+}
+
+.tool__subtitle {
+  position: absolute;
+  bottom: 8px;
+  margin: 0;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 23px;
+}
+
+.logo__techonologies {
+  width: 41px;
+  height: 41px;
+}
+
+.logo__techonologies__html__css {
+  width: 37px;
+  height: 41px;
+}
+.logo__techonologies__js {
+  width: 40px;
+  height: 40px;
+}
+.logo__techonologies__react {
+  width: 43px;
+  height: 38px;
+}
