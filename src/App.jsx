@@ -16,7 +16,7 @@ function App() {
     <CardGameProject/>
     <CardBlogPost/>
     <CardProfiles/>
-
+ 
   </div>;
 }
 

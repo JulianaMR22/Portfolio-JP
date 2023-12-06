@@ -1,0 +1,74 @@
+.modal__title__projects {
+  color: #3498db;
+  font-weight: 800;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.modal__title__projects::before {
+  content: "WEB";
+  color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 40px;
+  z-index: -1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 42px;
+  margin-left: 16px;
+}
+
+.modal_container_projects {
+  display: flex;
+  justify-content: left;
+  width: 90%;
+}
+.modal_container_web {
+  display: flex;
+  justify-content: right;
+  width: 90%;
+}
+
+.modal__image__projects {
+  width: 310px;
+  height: 170px;
+  border-radius: 10px;
+  border: 2px solid #3498db;
+}
+
+.modal__container__text {
+  margin-left: 30px;
+}
+
+.modal__text__project {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #3498db;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.modal__title__project {
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.modal__paragraph__project {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  width: 450px;
+  margin-top: 6px;
+}
+
+.modal__button {
+  background-color: #3498db;
+  border-radius: 5px;
+  width: 115px;
+  height: 30px;
+  border: 0;
+  color: #fff;
+  font-size: 10;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
