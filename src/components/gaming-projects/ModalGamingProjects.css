@@ -1,0 +1,29 @@
+.modal__title__gaming {
+  color: #f1c40f;
+  font-weight: 800;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.modal__title__gaming::before {
+  content: "GAMING";
+  color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 40px;
+  z-index: -1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 42px;
+  margin-left: 9px;
+}
+
+.modal__text__project.project__gaming {
+  color: #f1c40f;
+}
+
+.modal__image__projects.image__gaming {
+  border: 2px solid #f1c40f;
+}
+
+.modal__button.button__gaming {
+  background-color: #f39c12;
+}
