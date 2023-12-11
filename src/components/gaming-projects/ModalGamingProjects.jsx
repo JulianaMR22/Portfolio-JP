@@ -1,8 +1,8 @@
 import "../web-projects/ModalWebProjects.css";
 import "../credencials/ModalCredencials.css";
 import "./ModalGamingProjects.css";
-import minerlight from "../../assets/images/minerlight.png";
-import amiibo from "../../assets/images/amiibo.png";
+import minerlight from "/images/minerlight.png";
+import amiibo from "/images/amiibo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";

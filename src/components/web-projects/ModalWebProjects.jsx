@@ -1,7 +1,7 @@
 import "../web-projects/ModalWebProjects.css";
 import "../credencials/ModalCredencials.css";
-import cryptocurrencies from "../../assets/images/cryptocurrencies.png";
-import dailyfity from "../../assets/images/dailyfity.png";
+import cryptocurrencies from "/images/cryptocurrencies.png";
+import dailyfity from "/images/dailyfity.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";

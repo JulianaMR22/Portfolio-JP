@@ -1,9 +1,9 @@
 import "./ModalCredencials.css";
-import globant from "../../assets/images/globant.png";
-import redbull from "../../assets/images/redbull.png";
-import hme from "../../assets/images/hme.png";
-import chrobinson from "../../assets/images/chrobinson.png";
-import warnermedia from "../../assets/images/warnermedia.png";
+import globant from "/images/globant.png";
+import redbull from "/images/redbull.png";
+import hme from "/images/hme.png";
+import chrobinson from "/images/chrobinson.png";
+import warnermedia from "/images/warnermedia.png";
 
 function ModalCredencials({ isVisible }) {
   if (isVisible) {

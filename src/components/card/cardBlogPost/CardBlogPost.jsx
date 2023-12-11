@@ -4,7 +4,6 @@ import "./CardBlogPost.css";
 function CardBlogPost() {
   return (
     <Card className="blog__post">
-      <div></div>
       <div>
         <p className="text__credential paragraph__common paragraph_color">
           read me

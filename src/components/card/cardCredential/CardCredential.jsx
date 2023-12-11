@@ -13,7 +13,7 @@ function CardCredential() {
   return (
     <Card onClick={changeModalVisibility} className="credentials">
       <img
-        src="./src/assets/images/juan2.png"
+        src="/images/juan2.png"
         className="image__presentation__credentials"
         alt=""
       />

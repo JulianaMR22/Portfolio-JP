@@ -6,7 +6,7 @@ function CardPresentation() {
     <Card className="presentation">
       <div>
         <img
-          src="./src/assets/images/juan.png"
+          src="/images/juan.png"
           className="image__presentation"
           alt=""
         />
