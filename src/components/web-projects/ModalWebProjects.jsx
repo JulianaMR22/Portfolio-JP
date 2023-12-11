@@ -2,6 +2,11 @@ import "../web-projects/ModalWebProjects.css";
 import "../credencials/ModalCredencials.css";
 import cryptocurrencies from "../../assets/images/cryptocurrencies.png";
 import dailyfity from "../../assets/images/dailyfity.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faArrowUpRightFromSquare);
 
 function ModalWebProjects({ isVisible }) {
   if (isVisible) {
@@ -18,7 +23,13 @@ function ModalWebProjects({ isVisible }) {
                 Cryptocurrencies it's a platform that show you some of the most
                 famous crypto currencies and their values.
               </p>
-              <button className="modal__button">Open project</button>
+              <button className="modal__button">
+                Open project
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="icon__arrow"
+                />
+              </button>
             </div>
           </div>
           <div className="modal_container_web">
@@ -29,7 +40,13 @@ function ModalWebProjects({ isVisible }) {
                 DailyFity it's a platform that You can use to have an order in
                 your training routine.
               </p>
-              <button className="modal__button">Open project</button>
+              <button className="modal__button">
+                Open project
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="icon__arrow"
+                />
+              </button>
             </div>
             <img src={dailyfity} className="modal__image__projects" />
           </div>

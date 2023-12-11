@@ -66,10 +66,15 @@
 .modal__button {
   background-color: #3498db;
   border-radius: 5px;
-  width: 115px;
+  width: 130px;
   height: 30px;
   border: 0;
   color: #fff;
-  font-size: 10;
+  font-size: 14px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon__arrow {
+  margin-left: 12px;
+  font-size: 14px;
 }

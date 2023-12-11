@@ -2,3 +2,16 @@
   position: relative;
   grid-area: profiles;
 }
+
+.container__icons__profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.icon__profiles {
+  font-size: 40px;
+  color: #4b4949;
+  margin-right: 20px;
+}

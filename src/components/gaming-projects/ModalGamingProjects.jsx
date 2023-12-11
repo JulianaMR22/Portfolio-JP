@@ -3,6 +3,11 @@ import "../credencials/ModalCredencials.css";
 import "./ModalGamingProjects.css";
 import minerlight from "../../assets/images/minerlight.png";
 import amiibo from "../../assets/images/amiibo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faArrowUpRightFromSquare);
 
 function ModalGamingProjects({ isVisible }) {
   if (isVisible) {
@@ -24,6 +29,10 @@ function ModalGamingProjects({ isVisible }) {
               </p>
               <button className="modal__button button__gaming">
                 Open project
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="icon__arrow"
+                />
               </button>
             </div>
           </div>
@@ -37,6 +46,10 @@ function ModalGamingProjects({ isVisible }) {
               </p>
               <button className="modal__button button__gaming">
                 Open project
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className="icon__arrow"
+                />
               </button>
             </div>
             <img
