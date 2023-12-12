@@ -93,3 +93,30 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 640px) {
+  div .modal {
+    left: 5px;
+    width: 98%;
+  }
+  .modal__firstcontainer__companies {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+
+  .modal__globant__company {
+    width: 100px;
+    height: 20px; 
+   }
+
+  .modal__companies {
+    width: 70px;
+    margin-right: 15px;
+  }
+
+  .modal__hme__company {
+    width: 120px;
+    height: 33px;
+    margin-right: 20px;
+  }
+}

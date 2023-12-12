@@ -29,3 +29,13 @@
 .paragraph_color {
   color: #dedede;
 }
+
+@media screen and (max-width: 640px) {
+  div .main__container {
+    display: initial;
+  }
+  .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

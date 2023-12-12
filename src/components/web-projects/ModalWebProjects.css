@@ -78,3 +78,43 @@
   margin-left: 12px;
   font-size: 14px;
 }
+
+@media screen and (max-width: 640px) {
+  .modal__title__projects {
+    font-size: 32px;
+  }
+
+  .modal_container_projects {
+    width: 99%;
+    flex-direction: column;
+  }
+
+  .modal__image__projects {
+    width: 164px;
+    height: 95px;
+    margin-left: 22%;
+    margin-top: 7px;
+  }
+
+  .modal__container__text {
+    margin-left: 13px;
+  }
+
+  .modal__text__project {
+    font-size: 10px;
+  }
+
+  .modal__title__project {
+    font-size: 17px;
+  }
+
+  .modal__paragraph__project {
+    width: 300px;
+    font-size: 13px;
+  }
+
+  .modal_container_web {
+    width: 99%;
+    flex-direction: column;
+  }
+}
